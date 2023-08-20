@@ -17,6 +17,10 @@
 		61F3E4262A90E71400B016CE /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E4252A90E71400B016CE /* ChatAppTests.swift */; };
 		61F3E4302A90E71400B016CE /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E42F2A90E71400B016CE /* ChatAppUITests.swift */; };
 		61F3E4322A90E71400B016CE /* ChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E4312A90E71400B016CE /* ChatAppUITestsLaunchTests.swift */; };
+		61F3E4432A90E82A00B016CE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E43F2A90E82A00B016CE /* ChatViewController.swift */; };
+		61F3E4442A90E82A00B016CE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E4402A90E82A00B016CE /* WelcomeViewController.swift */; };
+		61F3E4452A90E82A00B016CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E4412A90E82A00B016CE /* LoginViewController.swift */; };
+		61F3E4462A90E82A00B016CE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3E4422A90E82A00B016CE /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		61F3E42B2A90E71400B016CE /* ChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F3E42F2A90E71400B016CE /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		61F3E4312A90E71400B016CE /* ChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61F3E43F2A90E82A00B016CE /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		61F3E4402A90E82A00B016CE /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		61F3E4412A90E82A00B016CE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		61F3E4422A90E82A00B016CE /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		61F3E40A2A90E71300B016CE /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				61F3E43E2A90E82A00B016CE /* Controllers */,
 				61F3E40B2A90E71300B016CE /* AppDelegate.swift */,
 				61F3E40D2A90E71300B016CE /* SceneDelegate.swift */,
 				61F3E40F2A90E71300B016CE /* ViewController.swift */,
@@ -128,6 +137,17 @@
 				61F3E4312A90E71400B016CE /* ChatAppUITestsLaunchTests.swift */,
 			);
 			path = ChatAppUITests;
+			sourceTree = "<group>";
+		};
+		61F3E43E2A90E82A00B016CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61F3E43F2A90E82A00B016CE /* ChatViewController.swift */,
+				61F3E4402A90E82A00B016CE /* WelcomeViewController.swift */,
+				61F3E4412A90E82A00B016CE /* LoginViewController.swift */,
+				61F3E4422A90E82A00B016CE /* RegisterViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F3E4452A90E82A00B016CE /* LoginViewController.swift in Sources */,
 				61F3E4102A90E71300B016CE /* ViewController.swift in Sources */,
 				61F3E4162A90E71300B016CE /* ChatApp.xcdatamodeld in Sources */,
+				61F3E4462A90E82A00B016CE /* RegisterViewController.swift in Sources */,
 				61F3E40C2A90E71300B016CE /* AppDelegate.swift in Sources */,
+				61F3E4442A90E82A00B016CE /* WelcomeViewController.swift in Sources */,
+				61F3E4432A90E82A00B016CE /* ChatViewController.swift in Sources */,
 				61F3E40E2A90E71300B016CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
